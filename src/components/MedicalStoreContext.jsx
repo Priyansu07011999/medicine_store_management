@@ -1,4 +1,4 @@
-// src/MedicalStoreContext.js
+
 import React, { createContext, useContext, useEffect, useReducer } from 'react';
 
 const MedicalStoreContext = createContext();
