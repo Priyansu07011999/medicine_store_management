@@ -4,7 +4,6 @@ import { useMedicalStore } from '../../MedicalStoreContext';
 const Cart = () => {
   const { state } = useMedicalStore();
 
-  // Group items in cart by name and sum their quantities
   const groupedCart = state.cart.reduce((acc, item) => {
     const existingItem = acc.find(i => i.name === item.name);
     if (existingItem) {
