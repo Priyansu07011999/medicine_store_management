@@ -1,4 +1,4 @@
-// src/AddMedicineForm.js
+
 import React, { useState } from 'react';
 import { useMedicalStore } from './MedicalStoreContext';
 
